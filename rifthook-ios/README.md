@@ -1,3 +1,3 @@
-#rifthook ios
+# rifthookios
 
 coming soon ;)
