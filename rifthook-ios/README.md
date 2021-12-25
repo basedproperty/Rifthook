@@ -1,3 +1,3 @@
-rifthook_ios
+#rifthook ios
 
 coming soon ;)
