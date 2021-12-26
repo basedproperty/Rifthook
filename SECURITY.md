@@ -2,12 +2,14 @@
 
 ## Supported Versions
 
-All versions of RLoad allow security vulnerabilities to be reported.
+The following table represents what versions of RLoad allow security vulnerabilities to be reported.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 0.1x    | :white_check_mark: |
-| 0.0x    | :white_check_mark: |
+| 0.1x.x  | :white_check_mark: |
+| 0.0x    | :x: |
+
+All versions of RiftAuth2 allow security vulnerabilities to be reported.
 
 ## Reporting a Vulnerability
 
