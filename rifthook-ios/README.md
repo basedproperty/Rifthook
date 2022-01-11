@@ -1,3 +1,0 @@
-# rifthookios
-
-coming soon ;)
