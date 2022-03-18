@@ -6,6 +6,7 @@ The following table represents what versions of RLoad allow security vulnerabili
 
 | Version | Supported          |
 | ------- | ------------------ |
+| 0.2     | :white_check_mark: |
 | 0.1x.x  | :white_check_mark: |
 | 0.0x    | :x: |
 
