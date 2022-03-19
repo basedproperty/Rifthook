@@ -14,7 +14,7 @@ All versions of RiftAuth2 allow security vulnerabilities to be reported.
 
 ## Reporting a Vulnerability
 
-Plese report any vulnerability that could cause the Rifthook script to be leaked/cracked immediately (for a big reward!). You can also report a minor bug for a small reward.
+Please report any vulnerability that could cause the Rifthook script to be leaked/cracked immediately (for a big reward!). You can also report a minor bug for a small reward.
 Note that the vulnerability must be an actual vulnerability, or it will be declined. 
 
 To report any vulnerabilities, DM me on Discord (property#9949).
