@@ -2,7 +2,10 @@
     Copyright (C) 2020-2022 Rifthook Development Team
     Functions/Tables required for Rifthook.
 ]]
-
+getgenv().GenData = {
+    LastUpdated = "1/1/22",
+    Version = "4.0"
+}
 getgenv().Services = {}
 setrawmetatable(Services,{
     __index = function(self,key)
