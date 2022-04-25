@@ -36,5 +36,5 @@ getgenv().GetCurrentGame = function()
             return v
         end
     end
-    return "Universal Aimbot"
+    return "Universal"
 end
