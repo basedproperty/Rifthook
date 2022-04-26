@@ -7,6 +7,7 @@ getgenv().GenData = {
     Version = "4.0"
 }
 getgenv().Services = {}
+getgenv().MathFuncs = {}
 setrawmetatable(Services,{
     __index = function(self,key)
         local service = game:GetService(key)
@@ -38,3 +39,29 @@ getgenv().GetCurrentGame = function()
     end
     return "Universal"
 end
+
+-- nerd shit
+
+getgenv().NaN = 0/0
+
+getgenv().MathFuncs.IsImaginary = function(x)
+    return not x == x
+end
+
+getgenv().MathFuncs.SolveQuadratic = function(a,b,c) -- get the 2 roots of ax^2 + bx + c = 0
+    local discriminant = math.sqrt(b^2 - 4*a*c)
+    local denominator = 2*a
+    if MathFuncs.IsImaginary(discriminant) == false then
+        local minusb = b*-1
+        local pos_num = minusb + discriminant
+        local neg_num = minusb - discriminant
+        return pos_num/denominator*-1, neg_num/denominator*-1 -- multiply by negative 1. idk why
+    else
+        return NaN,NaN
+    end
+end
+
+getgenv().MathFuncs.GetRoot = function(x,y)
+    return x ^ 1/y
+end
+
