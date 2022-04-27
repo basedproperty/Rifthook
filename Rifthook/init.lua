@@ -61,7 +61,7 @@ getgenv().MathFuncs.SolveQuadratic = function(a,b,c) -- get the 2 roots of ax^2 
     end
 end
 
-getgenv().MathFuncs.GetRoot = function(x,y)
-    return x ^ 1/y
+getgenv().MathFuncs.GetRoot = function(n,x) -- get x√n
+    return n ^ 1/x
 end
 
