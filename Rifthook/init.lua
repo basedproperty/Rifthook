@@ -4,7 +4,7 @@
 ]]
 getgenv().GenData = {
     LastUpdated = "13/05/22",
-    Version = "4.0 B2"
+    Version = "4.0 B3"
 }
 getgenv().Services = {}
 getgenv().MathFuncs = {}
