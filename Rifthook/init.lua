@@ -3,8 +3,8 @@
     Functions/Tables required for Rifthook.
 ]]
 getgenv().GenData = {
-    LastUpdated = "18/05/22",
-    Version = "4.0 B5"
+    LastUpdated = "27/05/22",
+    Version = "4.0 RC1"
 }
 getgenv().Services = {}
 getgenv().MathFuncs = {}
