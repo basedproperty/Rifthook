@@ -15,7 +15,7 @@ NOTE: Any version of RLoad that allows for an anti-downgrade bypass will be avai
 ## How to Report Security Exploits 
 
 Rifthook recognizes the importance of security exploits. If you have found a security exploit/vulnerability, please contact property#9949 on Discord.
-Successful security bugs will be eligable for a bounty reward.
+Successful security bugs will be eligable for a bounty reward. By reporting an exploit, you agree that you will not discuss the exploit until it has been properly fixed.
 
 Note: Due to logistical reasons, we will only be able to give you the bug bounty via Steam or Robux (We will use the official Robux conversion rate)
 
