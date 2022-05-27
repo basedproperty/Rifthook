@@ -1,20 +1,33 @@
 # Security Policy
 
-## Supported Versions
+## Supported Versions (RLoad)
 
 The following table represents what versions of RLoad allow security vulnerabilities to be reported.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 0.2     | :white_check_mark: |
-| 0.1x.x  | :white_check_mark: |
-| 0.0x    | :x: |
+| Version                     | Supported          |
+| --------------------------- | ------------------ |
+| RLoad_Secure (1.0)          | :white_check_mark: |
+| Legacy RLoad (0.01-0.22)    | :x:                |
 
-All versions of RiftAuth2 allow security vulnerabilities to be reported.
+NOTE: Any version of RLoad that allows for an anti-downgrade bypass will be available for a bounty reward.
 
-## Reporting a Vulnerability
 
-Please report any vulnerability that could cause the Rifthook script to be leaked/cracked immediately (for a big reward!). You can also report a minor bug for a small reward.
-Note that the vulnerability must be an actual vulnerability, or it will be declined. 
+## How to Report Security Exploits 
 
-To report any vulnerabilities, DM me on Discord (property#9949).
+Rifthook recognizes the importance of security exploits. If you have found a security exploit/vulnerability, please contact property#9949 on Discord.
+Successful security bugs will be eligable for a bounty reward.
+
+Note: Due to logistical reasons, we will only be able to give you the bug bounty via Steam or Robux (We will use the official Robux conversion rate)
+
+## Platforms available for bug bounty
+
+| Platform                    | Estimated bounty          |
+| --------------------------- | ------------------------- |
+| RifthookAuthentication      | €5 - €50                  |
+| RifthookVersionControl      | €5 - €25                  |
+| RLoad                       | €15 - €50                 |
+| Rifthook (Script)           | €10 - €20                 |
+
+## Retesting
+
+We may request retesting of an exploit to ensure the fix is properly working. If you retest an exploit within 86 hours, we will compensate you with €5 - €7.
