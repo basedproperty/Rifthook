@@ -28,7 +28,8 @@ getgenv().SupportedGames = {
     [6452089755] = "Jailbird",
     [6055959032] = "Jailbird Lobby",
     [7006496598] = "Bleeding Blades",
-    [292439477] = "Phantom Forces"
+    [292439477] = "Phantom Forces",
+    [142823291] = "Murder Mystery 2"
 }
 
 getgenv().GetCurrentGame = function()
