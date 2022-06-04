@@ -2,12 +2,12 @@
     Copyright (C) 2020-2022 Rifthook Development Team
     Functions/Tables required for Rifthook.
 ]]
-GenData = {
+getgenv().GenData = {
     LastUpdated = "27/05/22",
     Version = "4.0"
 }
-Services = {}
-MathFuncs = {}
+getgenv().Services = {}
+getgenv().MathFuncs = {}
 setrawmetatable(Services,{
     __index = function(self,key)
         local service = game:GetService(key)
@@ -19,7 +19,7 @@ setrawmetatable(Services,{
         return "RifthookServices"
     end
 })
-SupportedGames = {
+getgenv().SupportedGames = {
     [9528010] = "Blood & Iron",
     [4592800891] = "Battles",
     [301549746] = "Counter Blox",
@@ -32,7 +32,7 @@ SupportedGames = {
     [142823291] = "Murder Mystery 2" -- 4.1 Only
 }
 
-GetCurrentGame = function()
+getgenv().GetCurrentGame = function()
     for i,v in pairs(SupportedGames) do
         if game.PlaceId == i then
             return v
@@ -43,13 +43,13 @@ end
 
 -- nerd shit
 
-NaN = 0/0
+getgenv().NaN = 0/0
 
-MathFuncs.IsImaginary = function(x)
+getgenv().MathFuncs.IsImaginary = function(x)
     return not x == x
 end
 
-MathFuncs.SolveQuadratic = function(a,b,c) -- get the 2 roots of ax^2 + bx + c = 0
+getgenv().MathFuncs.SolveQuadratic = function(a,b,c) -- get the 2 roots of ax^2 + bx + c = 0
     local discriminant = math.sqrt(b^2 - 4*a*c)
     local denominator = 2*a
     if MathFuncs.IsImaginary(discriminant) == false then
@@ -62,7 +62,7 @@ MathFuncs.SolveQuadratic = function(a,b,c) -- get the 2 roots of ax^2 + bx + c =
     end
 end
 
-MathFuncs.GetRoot = function(n,x) -- get x√n
+getgenv().MathFuncs.GetRoot = function(n,x) -- get x√n
     return n ^ 1/x
 end
 
